@@ -98,7 +98,7 @@ public class NewsListActivity extends AppCompatActivity implements
     @Override
     public void onItemClick(String sourceUrl) {
         Intent intent = new Intent(this, DetailActivity.class);
-        intent.putExtra(DetailActivity.DETAIL, sourceUrl);
+        intent.putExtra(DetailActivity.URL, sourceUrl);
         startActivity(intent);
     }
 }

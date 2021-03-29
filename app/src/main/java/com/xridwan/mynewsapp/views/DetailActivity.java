@@ -18,7 +18,7 @@ import com.xridwan.mynewsapp.R;
 
 public class DetailActivity extends AppCompatActivity implements IDetailContract.IDetailView {
 
-    public static final String DETAIL = "url";
+    public static final String URL = "url";
 
     WebView webView;
     ProgressDialog progressDialog;
@@ -31,7 +31,7 @@ public class DetailActivity extends AppCompatActivity implements IDetailContract
         setContentView(R.layout.activity_detail);
 
         Bundle bundle = getIntent().getExtras();
-        url = bundle.getString(DETAIL);
+        url = bundle.getString(URL);
 
         initViews();
         onData();
