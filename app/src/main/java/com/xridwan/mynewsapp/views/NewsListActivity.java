@@ -26,13 +26,13 @@ public class NewsListActivity extends AppCompatActivity implements
     public static final String NAME = "name";
     public static final String DESC = "desc";
 
-    TextView tvName, tvDesc;
-    ImageView imgBack;
+    private TextView tvName, tvDesc;
+    private ImageView imgBack;
 
-    ProgressDialog progressDialog;
-    NewsAdapter listAdapter;
-    RecyclerView recyclerView;
-    NewsListPresenter detailPresenter;
+    private ProgressDialog progressDialog;
+    private NewsAdapter listAdapter;
+    private RecyclerView recyclerView;
+    private NewsListPresenter detailPresenter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

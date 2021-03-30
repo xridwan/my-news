@@ -28,13 +28,13 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity implements
         IMainContract.IMainView, SourceListAdapter.ItemClickListener {
 
-    EditText etSearch;
-    ImageView imgCancel;
-    RecyclerView recyclerView;
-    ProgressDialog progressDialog;
+    private EditText etSearch;
+    private ImageView imgCancel;
+    private RecyclerView recyclerView;
+    private ProgressDialog progressDialog;
 
-    SourceListAdapter listAdapter;
-    MainPresenter mainPresenter;
+    private SourceListAdapter listAdapter;
+    private MainPresenter mainPresenter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

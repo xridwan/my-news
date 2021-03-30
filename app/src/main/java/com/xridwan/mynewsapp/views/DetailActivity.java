@@ -20,8 +20,8 @@ public class DetailActivity extends AppCompatActivity implements IDetailContract
 
     public static final String URL = "url";
 
-    WebView webView;
-    ProgressDialog progressDialog;
+    private WebView webView;
+    private ProgressDialog progressDialog;
 
     String url;
 
