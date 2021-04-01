@@ -18,7 +18,7 @@ import com.xridwan.mynewsapp.R;
 
 public class DetailActivity extends AppCompatActivity implements IDetailContract.IDetailView {
 
-    public static final String URL = "url";
+    public static final String URL = "detail";
 
     private WebView webView;
     private ProgressDialog progressDialog;
