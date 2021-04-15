@@ -1,7 +1,7 @@
 package com.xridwan.mynewsapp.adapter;
 
 import android.content.Context;
-import android.content.Intent;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,9 +17,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.squareup.picasso.Picasso;
 import com.xridwan.mynewsapp.R;
 import com.xridwan.mynewsapp.models.Article;
-import com.xridwan.mynewsapp.views.DetailActivity;
 
-import java.io.IOException;
 import java.util.List;
 
 public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.viewHolder> {
